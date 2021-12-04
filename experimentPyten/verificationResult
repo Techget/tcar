@@ -1,0 +1,736 @@
+data: payoff_open_spiel_rank2_data.npy
+data_keep_rate: 0.3
+payoff_missing_tensors[%d] 0
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=314, f-delta=9.944283101131002e-05
+The frobenius norm of error of are: 0.010234226245557951
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+The frobenius norm of error of are: 0.005248641146516609
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 6.443301452265381
+
+
+TNCP:
+TNCP: iterations=764, difference=9.350566773872308e-16
+The frobenius norm of error of are: 0.0387969785326719
+
+
+payoff_missing_tensors[%d] 1
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=500, f-delta=0.000137204738302323
+CP_ALS: iterations=784, f-delta=9.994553368887897e-05
+The frobenius norm of error of are: 0.036304019164445596
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+The frobenius norm of error of are: 0.0005309771978712631
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 6.704006586836733
+
+
+TNCP:
+TNCP: iterations=827, difference=8.84924766872079e-16
+The frobenius norm of error of are: 4.645181407755172
+
+
+payoff_missing_tensors[%d] 2
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=419, f-delta=9.970980175487738e-05
+The frobenius norm of error of are: 0.010866615581796342
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+The frobenius norm of error of are: 0.00051536951549083
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 6.124634844444564
+
+
+TNCP:
+TNCP: iterations=726, difference=9.439691497001678e-16
+The frobenius norm of error of are: 1.317256717800162
+
+
+####################
+data_keep_rate: 0.5
+payoff_missing_tensors[%d] 0
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=269, f-delta=9.887927597336047e-05
+The frobenius norm of error of are: 3.1747901307973243
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+The frobenius norm of error of are: 3.1726560805528354
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 3.391682120808828
+
+
+TNCP:
+TNCP: iterations=719, difference=9.16078325926271e-16
+The frobenius norm of error of are: 3.1713105230584837
+
+
+payoff_missing_tensors[%d] 1
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=138, f-delta=9.953324214888051e-05
+The frobenius norm of error of are: 2.94077578128048
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+The frobenius norm of error of are: 2.940668297267601
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 3.0298887569508492
+
+
+TNCP:
+TNCP: iterations=698, difference=9.478958400448988e-16
+The frobenius norm of error of are: 2.888138557113876
+
+
+payoff_missing_tensors[%d] 2
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=115, f-delta=9.765732467495533e-05
+The frobenius norm of error of are: 2.804780863940029
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+The frobenius norm of error of are: 2.8037391597259154
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 3.2165031309624337
+
+
+TNCP:
+TNCP: iterations=5000, difference=2.289111499068108e-14
+The frobenius norm of error of are: 2.5143553292533416
+
+
+####################
+data_keep_rate: 0.7
+payoff_missing_tensors[%d] 0
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=500, f-delta=0.003998877586230993
+CP_ALS: iterations=1000, f-delta=0.0025043217743883316
+The frobenius norm of error of are: 6.910552095005684
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+ Tucker_ALS: iterations=500, fit = 0.7398006219506967, fit-delta = 0.0018093855578376961
+
+ Tucker_ALS: iterations=1000, fit = 0.7888118297761031, fit-delta = 0.0011325308678798544
+
+The frobenius norm of error of are: 6.9071341252632035
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 1.9761837382860055
+
+
+TNCP:
+TNCP: iterations=603, difference=8.97008556777797e-16
+The frobenius norm of error of are: 1.9886956573746575
+
+
+payoff_missing_tensors[%d] 1
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=85, f-delta=9.45649730174965e-05
+The frobenius norm of error of are: 1.8367799306773143
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+The frobenius norm of error of are: 1.8483880311992953
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 1.951754357929185
+
+
+TNCP:
+TNCP: iterations=656, difference=9.938470653203938e-16
+The frobenius norm of error of are: 1.7458097347231485
+
+
+payoff_missing_tensors[%d] 2
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=500, f-delta=0.002878945726536771
+CP_ALS: iterations=1000, f-delta=0.0017182553826420243
+The frobenius norm of error of are: 4.874753869057788
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+ Tucker_ALS: iterations=500, fit = 0.40765110183706954, fit-delta = 0.15054595682767538
+
+ Tucker_ALS: iterations=1000, fit = 0.4102624341529636, fit-delta = 0.18062243224869026
+
+The frobenius norm of error of are: 1.6671713614232149
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 1.8031938212422882
+
+
+TNCP:
+TNCP: iterations=5000, difference=4.3149845024425886e-14
+The frobenius norm of error of are: 1.3927738713356104
+
+
+####################
+data_keep_rate: 0.9000000000000001
+payoff_missing_tensors[%d] 0
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=19, f-delta=9.830546968870164e-05
+The frobenius norm of error of are: 0.8185008274970429
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+The frobenius norm of error of are: 0.8184784324960817
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 0.8914040641241915
+
+
+TNCP:
+TNCP: iterations=5000, difference=1.3780624446238167e-14
+The frobenius norm of error of are: 0.847018389528544
+
+
+payoff_missing_tensors[%d] 1
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=36, f-delta=8.262272264160873e-05
+The frobenius norm of error of are: 0.828526453789859
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+The frobenius norm of error of are: 0.8283948897047528
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 0.9055861795745707
+
+
+TNCP:
+TNCP: iterations=5000, difference=1.2867472632167934e-14
+The frobenius norm of error of are: 0.7654217637236842
+
+
+payoff_missing_tensors[%d] 2
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=51, f-delta=9.631017151453538e-05
+The frobenius norm of error of are: 0.7262820229995185
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+The frobenius norm of error of are: 0.7264634794767214
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 1.0296078754165783
+
+
+TNCP:
+TNCP: iterations=5000, difference=9.977764795719859e-15
+The frobenius norm of error of are: 0.7259512107422178
+
+
+####################
+------------
+data: randomly_generated_pyten_low_rank5_data.npy
+data_keep_rate: 0.3
+payoff_missing_tensors[%d] 0
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=500, f-delta=0.000235214223988897
+CP_ALS: iterations=1000, f-delta=0.00015206332424053394
+The frobenius norm of error of are: 0.17695383218371008
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+ Tucker_ALS: iterations=500, fit = 0.9772237377038213, fit-delta = 0.00032919590637511175
+
+ Tucker_ALS: iterations=1000, fit = 0.9777264023009425, fit-delta = 0.00013031569847494023
+
+The frobenius norm of error of are: 5.36767803122173
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 19.47342478740876
+
+
+TNCP:
+TNCP: iterations=732, difference=9.83496555145719e-16
+The frobenius norm of error of are: 0.1606996822398399
+
+
+payoff_missing_tensors[%d] 1
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=386, f-delta=9.980653424030014e-05
+The frobenius norm of error of are: 0.03238464744945283
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+The frobenius norm of error of are: 0.0070283665856153525
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 18.699008088277424
+
+
+TNCP:
+TNCP: iterations=5000, difference=3.438465929650498e-14
+The frobenius norm of error of are: 0.7648646019283228
+
+
+payoff_missing_tensors[%d] 2
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=500, f-delta=0.0022732685589280624
+CP_ALS: iterations=1000, f-delta=0.0016459660276214403
+The frobenius norm of error of are: 6.150966879559621
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+The frobenius norm of error of are: 0.002458939460776702
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 12.531225905522554
+
+
+TNCP:
+TNCP: iterations=4954, difference=9.494557336576532e-16
+The frobenius norm of error of are: 0.28807529441219654
+
+
+####################
+data_keep_rate: 0.5
+payoff_missing_tensors[%d] 0
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=500, f-delta=0.01030571090057685
+CP_ALS: iterations=1000, f-delta=0.006082609034936709
+The frobenius norm of error of are: 19.783253892588643
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+ Tucker_ALS: iterations=500, fit = 0.7848232975206223, fit-delta = 0.11409550214835201
+
+ Tucker_ALS: iterations=1000, fit = 0.784401076547325, fit-delta = 0.1452152137359147
+
+The frobenius norm of error of are: 7.162177600152922
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 13.099761475805204
+
+
+TNCP:
+TNCP: iterations=849, difference=8.119530062177264e-16
+The frobenius norm of error of are: 14.125360973582032
+
+
+payoff_missing_tensors[%d] 1
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=125, f-delta=9.676951419490166e-05
+The frobenius norm of error of are: 4.791043747527678
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+ Tucker_ALS: iterations=500, fit = 0.831715440128014, fit-delta = 0.0003455493936844223
+
+ Tucker_ALS: iterations=1000, fit = 0.8366941964717814, fit-delta = 0.00017807792649009751
+
+The frobenius norm of error of are: 9.178992613315408
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 13.846326257827153
+
+
+TNCP:
+TNCP: iterations=687, difference=8.882869209516686e-16
+The frobenius norm of error of are: 4.792055900304391
+
+
+payoff_missing_tensors[%d] 2
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=500, f-delta=0.007448008517547815
+CP_ALS: iterations=1000, f-delta=0.004332202967155798
+The frobenius norm of error of are: 11.26204049990424
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+The frobenius norm of error of are: 4.5339679222550195
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 9.427875585951913
+
+
+TNCP:
+TNCP: iterations=824, difference=9.311692449908031e-16
+The frobenius norm of error of are: 6.609348741893526
+
+
+####################
+data_keep_rate: 0.7
+payoff_missing_tensors[%d] 0
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=500, f-delta=0.0021999219157006595
+CP_ALS: iterations=1000, f-delta=0.0009512447923788422
+The frobenius norm of error of are: 7.830374266276346
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+ Tucker_ALS: iterations=500, fit = 0.8167206552184175, fit-delta = 0.00016345840315356045
+
+The frobenius norm of error of are: 7.47323547114374
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 10.261943128003233
+
+
+TNCP:
+TNCP: iterations=778, difference=8.52577892852106e-16
+The frobenius norm of error of are: 5.248848309764599
+
+
+payoff_missing_tensors[%d] 1
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=450, f-delta=9.995778345674901e-05
+The frobenius norm of error of are: 3.148953798230814
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+ Tucker_ALS: iterations=500, fit = 0.8548456548223686, fit-delta = 0.00040828385429211834
+
+ Tucker_ALS: iterations=1000, fit = 0.8403220615440183, fit-delta = 0.0013303076113719877
+
+The frobenius norm of error of are: 4.268643930024063
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 11.034091690306369
+
+
+TNCP:
+TNCP: iterations=5000, difference=5.083028151904905e-14
+The frobenius norm of error of are: 2.9751391212091143
+
+
+payoff_missing_tensors[%d] 2
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=500, f-delta=0.0027862443620119367
+CP_ALS: iterations=1000, f-delta=0.001403624812318644
+The frobenius norm of error of are: 5.835413975179683
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+ Tucker_ALS: iterations=500, fit = 0.8107010126835132, fit-delta = 0.00027926353214549485
+
+ Tucker_ALS: iterations=1000, fit = 0.8162918165837658, fit-delta = 0.00014022812483612126
+
+The frobenius norm of error of are: 5.8290165454017036
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 6.820451111886306
+
+
+TNCP:
+TNCP: iterations=5000, difference=4.634592870686455e-14
+The frobenius norm of error of are: 2.5806973836325313
+
+
+####################
+data_keep_rate: 0.9000000000000001
+payoff_missing_tensors[%d] 0
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=64, f-delta=9.754393678186697e-05
+The frobenius norm of error of are: 1.1081294021312238
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+The frobenius norm of error of are: 1.107481639713095
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 5.823784193363413
+
+
+TNCP:
+TNCP: iterations=634, difference=9.652549944641044e-16
+The frobenius norm of error of are: 1.108230561961668
+
+
+payoff_missing_tensors[%d] 1
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=35, f-delta=8.967982644297844e-05
+The frobenius norm of error of are: 1.454300138551533
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+The frobenius norm of error of are: 1.4222277616247891
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 6.374985069674535
+
+
+TNCP:
+TNCP: iterations=5000, difference=1.1575610770048566e-14
+The frobenius norm of error of are: 1.4419446968854495
+
+
+payoff_missing_tensors[%d] 2
+cp_als:
+
+CP_ALS:
+
+CP_ALS: iterations=500, f-delta=0.005924616858247892
+CP_ALS: iterations=1000, f-delta=0.0027807885652952912
+The frobenius norm of error of are: 7.70192926092036
+
+
+tucker_als:
+
+Tucker Alternating Least-Squares:
+
+ Tucker_ALS: iterations=500, fit = 0.8122219079741602, fit-delta = 0.00046948110452339585
+
+ Tucker_ALS: iterations=1000, fit = 0.7977882791778061, fit-delta = 0.0048560735390774466
+
+The frobenius norm of error of are: 4.004552696551287
+
+
+halrtc:
+HaLRTC ends: total iterations = 2   difference = [0.]
+
+
+The frobenius norm of error of are: 3.98108386745575
+
+
+TNCP:
+TNCP: iterations=631, difference=9.914462041068279e-16
+The frobenius norm of error of are: 1.4856723932888405
+
+
+####################
+------------
