@@ -30,13 +30,15 @@ from open_spiel.python.egt import alpharank_visualizer
 from open_spiel.python.egt import utils
 import numpy as np
 import pyspiel
+import tensorly as tl
+from numpy.linalg import matrix_rank
 
 
 def get_kuhn_poker_data(num_players=3):
   """Returns the kuhn poker data for the number of players specified."""
   game = pyspiel.load_game('kuhn_poker', {'players': num_players})
   xfp_solver = fictitious_play.XFPSolver(game, save_oracles=True)
-  for _ in range(99):
+  for _ in range(10):
     xfp_solver.iteration()
 
   # Results are seed-dependent, so show some interesting cases
