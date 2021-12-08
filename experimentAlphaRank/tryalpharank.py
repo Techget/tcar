@@ -26,8 +26,8 @@ from absl import app
 
 from open_spiel.python.algorithms import fictitious_play
 from open_spiel.python.egt import alpharank
-from open_spiel.python.egt import alpharank_visualizer
-from open_spiel.python.egt import utils
+# from open_spiel.python.egt import alpharank_visualizer
+# from open_spiel.python.egt import utils
 import numpy as np
 import pyspiel
 import tensorly as tl
