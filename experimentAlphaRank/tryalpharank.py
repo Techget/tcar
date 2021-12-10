@@ -38,7 +38,7 @@ def get_kuhn_poker_data(num_players=3):
   """Returns the kuhn poker data for the number of players specified."""
   game = pyspiel.load_game('kuhn_poker', {'players': num_players})
   xfp_solver = fictitious_play.XFPSolver(game, save_oracles=True)
-  for _ in range(99):
+  for _ in range(999):
     xfp_solver.iteration()
 
   # Results are seed-dependent, so show some interesting cases
@@ -56,11 +56,7 @@ def get_kuhn_poker_data(num_players=3):
   return payoff_tables
 
 
-def main(unused_arg):
-  # Construct meta-game payoff tables
-  payoff_tables = get_kuhn_poker_data()
-  # print("payoff_tables: ", payoff_tables[0])
-
+def cal_rank(payoff_tables):
   print("shape of payoff_table: ", payoff_tables[0].shape)
   temp_sh = payoff_tables[0].shape
   for pt in payoff_tables:
@@ -70,6 +66,15 @@ def main(unused_arg):
       mat = tl.unfold(tpt, i)
       rs.append(matrix_rank(mat))
     print("ranks:", rs)
+
+def main(unused_arg):
+  # Construct meta-game payoff tables
+  payoff_tables = get_kuhn_poker_data()
+  # print("payoff_tables: ", payoff_tables[0])
+  cal_rank(payoff_tables)
+
+  payoff4_tables = get_kuhn_poker_data(num_players=4)
+  cal_rank(payoff4_tables)
 
   # print("payoff_tables shape: ", payoff_tables[0].shape)
   # payoffs_are_hpt_format = utils.check_payoffs_are_hpt(payoff_tables)
